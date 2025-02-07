@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Liter&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body{
+    background-color: #0f0f0f;
+    color: azure;
+}
+
+.liter-regular {
+    font-family: "Liter", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.section {
+    
+    height: 100vh; /* Full viewport height */
+    scroll-snap-align: start; /* Snap sections to the top */
+    align-items: center;
+    justify-content: center;   
+    font-size: 2rem;
+    
+}
+
+.headert1 {
+    font-size: 5rem;
+}
+
+
+
+.button{
+    border-radius: 25px;
+    font-size: 20px;
+    padding: 10px 40px;
+    background-color: #9c8930;
+    color: azure;
+}
+.centeredText {
+    text-align: center;
+}
+
+.samplepic1{
+    max-width: 80%;
+}
+#intro{
+    display: flex;
+    flex-direction: column;
+}
+#about{
+    display: flex;
+    justify-content: space-evenly;
+}
+.aboutLeft{
+    width: 50vw;
+}
+.aboutRight{
+    width: 50vw;
+}
