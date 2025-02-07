@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Liter&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-
+@import "output.css";
+@import "base.css";
+@import "embla.css";
+@import "sandbox.css";
 body{
     background-color: #0f0f0f;
     color: azure;
@@ -13,7 +16,6 @@ body{
 }
 
 .section {
-    
     height: 100vh; /* Full viewport height */
     scroll-snap-align: start; /* Snap sections to the top */
     align-items: center;
